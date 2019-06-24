@@ -1,0 +1,136 @@
+@media (min-width: 1200px){
+	
+}
+@media (min-width: 992px) and (max-width: 1199.98px;){
+	
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	#right-wrapper{
+		display:none;
+	}
+	.tile{
+		width:45.75%;
+	}
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+	#right-wrapper{
+		display:none;
+	}
+	.no-gutters{
+		padding:15px;
+	}
+	.tile{
+		width:46.55%;
+		margin:5px;
+	}
+	.tile img{
+		height:auto;
+	}
+	.contect_item{
+		width:100%;
+	}
+}
+@media (max-width: 575.98px){
+	/*------Home page ---------*/
+	#right-wrapper{
+		display:none;
+	}
+	.heading{
+		width:45px;
+	}
+	.main-content{
+		padding-left:45px;
+	}
+	.inner-content{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.head-content{
+		padding:20px 0px;
+	}
+	.head-content h3{
+		font-size:18px;
+	}
+	.head-content h5{
+		font-size:16px;
+	}
+	.box-wrapper{
+		width:100%;
+		padding:10px 0px;
+	}
+	#wrapper{
+		padding:15px;
+	}
+	/*------About page ---------*/
+	.back-btn{
+		top: 22px;
+		left: 62px;
+		font-size: 20px;
+	}
+	.no-gutters{
+		padding:15px;
+	}
+	.info li{
+		font-size:12px;
+	}
+	.social-links ul li a{
+		width: calc(1em * 2.20);
+		height: calc(1em * 2.20);
+		line-height: calc(1em * 2.20);
+	}
+	.button-wrapper{
+		display:block;
+		text-align:center;
+	}
+	#about .single-button a{
+		margin:0px;
+	}
+	/*------Resume page ---------*/
+	.single-skills-wrapper.pr-3{
+		padding-right:0px !important;
+	}
+	.single-skills-wrapper.pl-3{
+		padding-left:0px !important;
+	}
+	.education .pr-3{
+		padding-right:0px !important;
+	}
+	.education .pl-3{
+		padding-left:0px !important;
+	}
+	.education .col-sm-6:nth-child(1){
+		margin-bottom:20px;
+	}
+	
+	.experience .pr-3{
+		padding-right:0px !important;
+	}
+	.experience .pl-3{
+		padding-left:0px !important;
+	}
+	.experience .col-sm-6:nth-child(1){
+		margin-bottom:20px;
+	}
+	.single-education .education-box-heading h4{
+		font-size:16px;
+	}
+	.button-wrapper.mt-5.mb-5{
+		margin-top:25px !important;
+		margin-bottom:25px !important;
+	}
+	.tile{
+		width:100%;
+		margin:0px;
+	}
+	.tile img{
+		height:auto;
+	}
+	.contect_item{
+		width:100%;
+		margin-bottom:15px;
+	}
+	.contect_item p{
+		font-size:12px;
+	}
+}

@@ -971,3 +971,6 @@ ul{
 .contect_item p{
     font-size: 14px;
 }
+.modal-open .modal{
+	background-color:rgba(0, 0, 0, 0.52);
+}
