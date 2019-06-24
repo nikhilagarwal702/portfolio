@@ -811,6 +811,7 @@ ul{
     -moz-transition: 0.4s ease-in-out;
     -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
+	object-fit:cover;
 } 
 #portfolio-inner .btn {
     font-size: 1rem;
@@ -866,6 +867,7 @@ ul{
     -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
     background: rgba(44, 48, 81, 0.9);
+	display:block !important;
 }
 .porfolio_view-link{
     position: absolute;
@@ -875,9 +877,21 @@ ul{
     -moz-transition: 0.4s ease-in-out;
     -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
+	display:block !important; 
 }
 .tile:hover .porfolio_view-link{
     right: 0px;
+}
+.porfolio_view-link button{
+    background: transparent;
+    border: 0px !important;
+    box-shadow: none !important;
+	outline none !important;
+    padding: 0px !important;
+    color: #fff !important;
+}
+.porfolio_view-link a{
+    color: #fff;
 }
 .porfolio_view-link i{
     background-color: #373b60;
@@ -890,6 +904,21 @@ ul{
     border-radius: 100%;
     margin-right: 10px;
 }
+.portfolio-modals .modal-content{
+	overflow:hidden;
+}
+.portfolio-modals img{
+    object-fit: cover;
+    width: 100%;
+}
+.portfolio-modals .close{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 36px;
+	outline:none;
+	box-shadow:none;
+}
 .porfolio-description{
     position: absolute;
     bottom: 10px;
@@ -898,6 +927,7 @@ ul{
     -moz-transition: 0.4s ease-in-out;
     -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
+	display:block !important;
 }
 .tile:hover .porfolio-description{
     left: 10px;
