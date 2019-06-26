@@ -1,7 +1,6 @@
 // Use TypeIt.js
 $(document).ready(function () {
   if (typeof TypeIt != 'undefined') {
-    console.log("lsdkf");
     new TypeIt('.passion', {
       speed: 200,
       startDelay: 800,
@@ -21,7 +20,6 @@ var pageFromTo = function (from, to) {
   from.addClass('scaleUpFromFront');
   to.addClass('scaleDownFromFront');
 };
-console.log("sfi");
 // The .box-wrapper is clicked
 $('.box-wrapper').on('click', function () {
 
@@ -40,13 +38,11 @@ $('.box-wrapper').on('click', function () {
       pageFromTo($('#home'), $('#contact'));
       break;
   }
-  console.log('------------------:::');
 });
 // The close button is clicked
 $('.main-content').on('click', '.back-btn', function () {
 
   var parentOfChild = $(this)[0].parentNode.parentNode.id;
-  console.log('---------------', $(this)[0], $(this)[0].parentNode, $(this)[0].parentNode.parentNode, $(this)[0].parentNode.parentNode.id);
   switch (parentOfChild) {
     case 'about':
       pageFromTo($('#about'), $('#home'));
